@@ -1,0 +1,3 @@
+[submodule "Workspace/SpdLog"]
+	path = Workspace/LogSystem/SpdLog
+	url = https://github.com/ImmaculateEmpyrean/spdlog.git
