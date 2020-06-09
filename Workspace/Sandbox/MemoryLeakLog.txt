@@ -1,0 +1,397 @@
+Detected memory leaks!
+Dumping objects ->
+{589} normal block at 0x0000023E23BD8050, 32 bytes long.
+ Data: <DefaultFileLogge> 44 65 66 61 75 6C 74 46 69 6C 65 4C 6F 67 67 65 
+{588} normal block at 0x0000023E23BD6840, 16 bytes long.
+ Data: < - #>           > D0 2D BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{587} normal block at 0x0000023E23BD2DC0, 72 bytes long.
+ Data: <p  #>    . #>   > 70 F6 BC 23 3E 02 00 00 E0 2E BD 23 3E 02 00 00 
+{584} normal block at 0x0000023E23BD7FF0, 24 bytes long.
+ Data: < Fp?            > 10 46 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{583} normal block at 0x0000023E23BD3900, 72 bytes long.
+ Data: <P  #>    s #>   > 50 86 BD 23 3E 02 00 00 E0 73 BD 23 3E 02 00 00 
+{582} normal block at 0x0000023E23BD8BF0, 24 bytes long.
+ Data: < }p?            > B8 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{581} normal block at 0x0000023E23BD69D0, 16 bytes long.
+ Data: <x{ #>           > 78 7B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{580} normal block at 0x0000023E23BD7B60, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{578} normal block at 0x0000023E23BD8AD0, 24 bytes long.
+ Data: <8}p?            > 38 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{576} normal block at 0x0000023E23BD68E0, 16 bytes long.
+ Data: <x~ #>           > 78 7E BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{575} normal block at 0x0000023E23BD7E60, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{573} normal block at 0x0000023E23BD85F0, 24 bytes long.
+ Data: <x p?            > 78 80 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{571} normal block at 0x0000023E23BD6980, 16 bytes long.
+ Data: < s #>           > F8 73 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{570} normal block at 0x0000023E23BD73E0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{568} normal block at 0x0000023E23BD8650, 24 bytes long.
+ Data: < Ep?            > F0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{563} normal block at 0x0000023E23BD6610, 16 bytes long.
+ Data: < K #>           > 88 4B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{562} normal block at 0x0000023E23BD6480, 16 bytes long.
+ Data: <0K #>           > 30 4B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{560} normal block at 0x0000023E23BCFF60, 32 bytes long.
+ Data: <%^[%T] %n : %v%$> 25 5E 5B 25 54 5D 20 25 6E 20 3A 20 25 76 25 24 
+{559} normal block at 0x0000023E23BD6BB0, 16 bytes long.
+ Data: < K #>           > 08 4B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{553} normal block at 0x0000023E23BD4B00, 248 bytes long.
+ Data: < Ep?     k #>   > 20 45 70 3F F6 7F 00 00 B0 6B BD 23 3E 02 00 00 
+{552} normal block at 0x0000023E23BD4A40, 128 bytes long.
+ Data: <@  #>   @  #>   > 40 FE BC 23 3E 02 00 00 40 FE BC 23 3E 02 00 00 
+{551} normal block at 0x0000023E23BD6340, 16 bytes long.
+ Data: < K #>           > C8 4B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{550} normal block at 0x0000023E23BCFE40, 32 bytes long.
+ Data: <@  #>   @  #>   > 40 FE BC 23 3E 02 00 00 40 FE BC 23 3E 02 00 00 
+{549} normal block at 0x0000023E23BD6E80, 16 bytes long.
+ Data: < K #>           > B0 4B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{548} normal block at 0x0000023E23BD6160, 16 bytes long.
+ Data: < I #>           > E0 49 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{547} normal block at 0x0000023E23BD6ED0, 16 bytes long.
+ Data: < P #>    P #>   > C0 50 BD 23 3E 02 00 00 B0 50 BD 23 3E 02 00 00 
+{546} normal block at 0x0000023E23BD6520, 16 bytes long.
+ Data: < I #>           > 00 49 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{541} normal block at 0x0000023E23BD48C0, 320 bytes long.
+ Data: <  p?            > D8 81 70 3F F6 7F 00 00 02 00 00 00 01 00 00 00 
+{532} normal block at 0x0000023E23BD3E20, 112 bytes long.
+ Data: <A:\Projects\Open> 41 3A 5C 50 72 6F 6A 65 63 74 73 5C 4F 70 65 6E 
+{531} normal block at 0x0000023E23BD65C0, 16 bytes long.
+ Data: <8Q #>           > 38 51 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{519} normal block at 0x0000023E23BD50B0, 176 bytes long.
+ Data: <  p?            > B8 91 70 3F F6 7F 00 00 01 00 00 00 01 00 00 00 
+{518} normal block at 0x0000023E23BCFBA0, 32 bytes long.
+ Data: <DefaultFileLogge> 44 65 66 61 75 6C 74 46 69 6C 65 4C 6F 67 67 65 
+{517} normal block at 0x0000023E23BD60C0, 16 bytes long.
+ Data: < H #>           > D8 48 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{498} normal block at 0x0000023E23BD67F0, 16 bytes long.
+ Data: < . #>           > F0 2E BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{497} normal block at 0x0000023E23BD2EE0, 72 bytes long.
+ Data: < - #>    : #>   > C0 2D BD 23 3E 02 00 00 B0 3A BD 23 3E 02 00 00 
+{495} normal block at 0x0000023E23BD0140, 24 bytes long.
+ Data: < Fp?            > 10 46 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{494} normal block at 0x0000023E23BD3360, 72 bytes long.
+ Data: <`  #>    q #>   > 60 FC BC 23 3E 02 00 00 E0 71 BD 23 3E 02 00 00 
+{493} normal block at 0x0000023E23BCFD20, 24 bytes long.
+ Data: < }p?            > B8 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{492} normal block at 0x0000023E23BD6200, 16 bytes long.
+ Data: < u #>           > F8 75 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{491} normal block at 0x0000023E23BD75E0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{489} normal block at 0x0000023E23BCFFC0, 24 bytes long.
+ Data: <8}p?            > 38 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{487} normal block at 0x0000023E23BD6250, 16 bytes long.
+ Data: < ~ #>           > F8 7E BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{486} normal block at 0x0000023E23BD7EE0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{484} normal block at 0x0000023E23BCFF00, 24 bytes long.
+ Data: <x p?            > 78 80 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{482} normal block at 0x0000023E23BD6020, 16 bytes long.
+ Data: < q #>           > F8 71 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{481} normal block at 0x0000023E23BD71E0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{479} normal block at 0x0000023E23BCFC60, 24 bytes long.
+ Data: < Ep?            > F0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{474} normal block at 0x0000023E23BD67A0, 16 bytes long.
+ Data: < E #>           > E8 45 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{473} normal block at 0x0000023E23BD6930, 16 bytes long.
+ Data: < E #>           > 90 45 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{471} normal block at 0x0000023E23BD0260, 32 bytes long.
+ Data: <%^[%T] %n : %v%$> 25 5E 5B 25 54 5D 20 25 6E 20 3A 20 25 76 25 24 
+{470} normal block at 0x0000023E23BD6D90, 16 bytes long.
+ Data: <hE #>           > 68 45 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{464} normal block at 0x0000023E23BD4560, 248 bytes long.
+ Data: < Ep?     m #>   > 20 45 70 3F F6 7F 00 00 90 6D BD 23 3E 02 00 00 
+{463} normal block at 0x0000023E23BD44A0, 128 bytes long.
+ Data: <   #>      #>   > 80 FA BC 23 3E 02 00 00 80 FA BC 23 3E 02 00 00 
+{462} normal block at 0x0000023E23BD6390, 16 bytes long.
+ Data: <(F #>           > 28 46 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{461} normal block at 0x0000023E23BCFA80, 32 bytes long.
+ Data: <   #>      #>   > 80 FA BC 23 3E 02 00 00 80 FA BC 23 3E 02 00 00 
+{460} normal block at 0x0000023E23BD6C00, 16 bytes long.
+ Data: < F #>           > 10 46 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{459} normal block at 0x0000023E23BD66B0, 16 bytes long.
+ Data: <@D #>           > 40 44 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{458} normal block at 0x0000023E23BD6110, 16 bytes long.
+ Data: < = #>    = #>   > 90 3D BD 23 3E 02 00 00 80 3D BD 23 3E 02 00 00 
+{457} normal block at 0x0000023E23BD6750, 16 bytes long.
+ Data: <`C #>           > 60 43 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{456} normal block at 0x0000023E23BD6CA0, 16 bytes long.
+ Data: <8C #>           > 38 43 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{452} normal block at 0x0000023E23BD4320, 320 bytes long.
+ Data: <  p?            > D8 81 70 3F F6 7F 00 00 02 00 00 00 01 00 00 00 
+{440} normal block at 0x0000023E23BD3D80, 96 bytes long.
+ Data: <  p?            > 88 82 70 3F F6 7F 00 00 01 00 00 00 01 00 00 00 
+{437} normal block at 0x0000023E23BD63E0, 16 bytes long.
+ Data: < 9 #>           > A0 39 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{436} normal block at 0x0000023E23BD3990, 72 bytes long.
+ Data: <   #>      #>   > 80 B1 BC 23 3E 02 00 00 80 B1 BC 23 3E 02 00 00 
+{434} normal block at 0x0000023E23BCFAE0, 32 bytes long.
+ Data: <Example1FileLogg> 45 78 61 6D 70 6C 65 31 46 69 6C 65 4C 6F 67 67 
+{433} normal block at 0x0000023E23BD6DE0, 16 bytes long.
+ Data: < : #>           > C0 3A BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{432} normal block at 0x0000023E23BD3AB0, 72 bytes long.
+ Data: < . #>   `* #>   > E0 2E BD 23 3E 02 00 00 60 2A BD 23 3E 02 00 00 
+{429} normal block at 0x0000023E23BCF960, 24 bytes long.
+ Data: < Fp?            > 10 46 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{428} normal block at 0x0000023E23BD2E50, 72 bytes long.
+ Data: <   #>    w #>   > 80 06 BD 23 3E 02 00 00 E0 77 BD 23 3E 02 00 00 
+{427} normal block at 0x0000023E23BCF900, 24 bytes long.
+ Data: < }p?            > B8 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{426} normal block at 0x0000023E23BD5FD0, 16 bytes long.
+ Data: <xu #>           > 78 75 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{425} normal block at 0x0000023E23BD7560, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{423} normal block at 0x0000023E23BCFCC0, 24 bytes long.
+ Data: <8}p?            > 38 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{421} normal block at 0x0000023E23BD6C50, 16 bytes long.
+ Data: < | #>           > F8 7C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{420} normal block at 0x0000023E23BD7CE0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{418} normal block at 0x0000023E23BCF7E0, 24 bytes long.
+ Data: <x p?            > 78 80 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{416} normal block at 0x0000023E23BD6F20, 16 bytes long.
+ Data: < w #>           > F8 77 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{415} normal block at 0x0000023E23BD77E0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{413} normal block at 0x0000023E23BD0680, 24 bytes long.
+ Data: < Ep?            > F0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{408} normal block at 0x0000023E23BD6570, 16 bytes long.
+ Data: <hB #>           > 68 42 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{407} normal block at 0x0000023E23BCF160, 16 bytes long.
+ Data: < B #>           > 10 42 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{405} normal block at 0x0000023E23BCFD80, 32 bytes long.
+ Data: <%^[%T] %n : %v%$> 25 5E 5B 25 54 5D 20 25 6E 20 3A 20 25 76 25 24 
+{404} normal block at 0x0000023E23BCF070, 16 bytes long.
+ Data: < A #>           > E8 41 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{398} normal block at 0x0000023E23BD41E0, 248 bytes long.
+ Data: < Ep?    p  #>   > 20 45 70 3F F6 7F 00 00 70 F0 BC 23 3E 02 00 00 
+{397} normal block at 0x0000023E23BD4120, 128 bytes long.
+ Data: <   #>      #>   > A0 04 BD 23 3E 02 00 00 A0 04 BD 23 3E 02 00 00 
+{396} normal block at 0x0000023E23BD0FD0, 16 bytes long.
+ Data: < B #>           > A8 42 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{395} normal block at 0x0000023E23BD04A0, 32 bytes long.
+ Data: <   #>      #>   > A0 04 BD 23 3E 02 00 00 A0 04 BD 23 3E 02 00 00 
+{394} normal block at 0x0000023E23BD16B0, 16 bytes long.
+ Data: < B #>           > 90 42 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{393} normal block at 0x0000023E23BD0F30, 16 bytes long.
+ Data: < @ #>           > C0 40 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{392} normal block at 0x0000023E23BD1890, 16 bytes long.
+ Data: < + #>    * #>   > 00 2B BD 23 3E 02 00 00 F0 2A BD 23 3E 02 00 00 
+{391} normal block at 0x0000023E23BD0E90, 16 bytes long.
+ Data: < ? #>           > E0 3F BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{386} normal block at 0x0000023E23BD3FA0, 320 bytes long.
+ Data: <  p?            > D8 81 70 3F F6 7F 00 00 02 00 00 00 01 00 00 00 
+{377} normal block at 0x0000023E23BD21C0, 96 bytes long.
+ Data: <A:\Projects\Open> 41 3A 5C 50 72 6F 6A 65 63 74 73 5C 4F 70 65 6E 
+{376} normal block at 0x0000023E23BD1610, 16 bytes long.
+ Data: <x+ #>           > 78 2B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{364} normal block at 0x0000023E23BD2AF0, 176 bytes long.
+ Data: <  p?            > B8 91 70 3F F6 7F 00 00 01 00 00 00 01 00 00 00 
+{363} normal block at 0x0000023E23BD0020, 32 bytes long.
+ Data: <Example1FileLogg> 45 78 61 6D 70 6C 65 31 46 69 6C 65 4C 6F 67 67 
+{362} normal block at 0x0000023E23BD0CB0, 16 bytes long.
+ Data: < ? #>           > B8 3F BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{349} normal block at 0x0000023E23BD4E90, 160 bytes long.
+ Data: <A : \ P r o j e > 41 00 3A 00 5C 00 50 00 72 00 6F 00 6A 00 65 00 
+{285} normal block at 0x0000023E23BD11B0, 16 bytes long.
+ Data: <  z?            > 08 CB 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{281} normal block at 0x0000023E23BD1BB0, 16 bytes long.
+ Data: < 4 #>           > 90 34 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{280} normal block at 0x0000023E23BD3480, 72 bytes long.
+ Data: <0  #>   0  #>   > 30 B0 BC 23 3E 02 00 00 30 B0 BC 23 3E 02 00 00 
+{278} normal block at 0x0000023E23BD14D0, 16 bytes long.
+ Data: <p* #>           > 70 2A BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{277} normal block at 0x0000023E23BD2A60, 72 bytes long.
+ Data: < : #>    $ #>   > B0 3A BD 23 3E 02 00 00 00 24 BD 23 3E 02 00 00 
+{275} normal block at 0x0000023E23BD00E0, 24 bytes long.
+ Data: < Fp?            > 10 46 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{274} normal block at 0x0000023E23BD2CE0, 72 bytes long.
+ Data: <   #>    $ #>   > C0 05 BD 23 3E 02 00 00 D0 24 BD 23 3E 02 00 00 
+{273} normal block at 0x0000023E23BCF8A0, 24 bytes long.
+ Data: < }p?            > B8 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{272} normal block at 0x0000023E23BD1B60, 16 bytes long.
+ Data: <x, #>           > 78 2C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{271} normal block at 0x0000023E23BD2C60, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{269} normal block at 0x0000023E23BD0440, 24 bytes long.
+ Data: <8}p?            > 38 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{267} normal block at 0x0000023E23BD19D0, 16 bytes long.
+ Data: < + #>           > F8 2B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{266} normal block at 0x0000023E23BD2BE0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{264} normal block at 0x0000023E23BD03E0, 24 bytes long.
+ Data: <x p?            > 78 80 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{262} normal block at 0x0000023E23BD1480, 16 bytes long.
+ Data: < $ #>           > E8 24 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{261} normal block at 0x0000023E23BD24D0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{259} normal block at 0x0000023E23BD05C0, 24 bytes long.
+ Data: < Ep?            > F0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{254} normal block at 0x0000023E23BD1B10, 16 bytes long.
+ Data: < ) #>           > A8 29 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{253} normal block at 0x0000023E23BD1A20, 16 bytes long.
+ Data: <P) #>           > 50 29 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{251} normal block at 0x0000023E23BD0560, 32 bytes long.
+ Data: <%^[%T] %n : %v%$> 25 5E 5B 25 54 5D 20 25 6E 20 3A 20 25 76 25 24 
+{250} normal block at 0x0000023E23BD1070, 16 bytes long.
+ Data: <() #>           > 28 29 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{244} normal block at 0x0000023E23BD2920, 248 bytes long.
+ Data: < Ep?    p  #>   > 20 45 70 3F F6 7F 00 00 70 10 BD 23 3E 02 00 00 
+{243} normal block at 0x0000023E23BD2860, 128 bytes long.
+ Data: <   #>      #>   > E0 FD BC 23 3E 02 00 00 E0 FD BC 23 3E 02 00 00 
+{242} normal block at 0x0000023E23BD1160, 16 bytes long.
+ Data: < ) #>           > E8 29 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{241} normal block at 0x0000023E23BCFDE0, 32 bytes long.
+ Data: <   #>      #>   > E0 FD BC 23 3E 02 00 00 E0 FD BC 23 3E 02 00 00 
+{240} normal block at 0x0000023E23BD1200, 16 bytes long.
+ Data: < ) #>           > D0 29 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{239} normal block at 0x0000023E23BD0D00, 16 bytes long.
+ Data: < ( #>           > 00 28 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{238} normal block at 0x0000023E23BD1930, 16 bytes long.
+ Data: <p  #>   `  #>   > 70 1D BD 23 3E 02 00 00 60 1D BD 23 3E 02 00 00 
+{237} normal block at 0x0000023E23BD1110, 16 bytes long.
+ Data: < ' #>           > 20 27 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{236} normal block at 0x0000023E23BD18E0, 16 bytes long.
+ Data: < & #>           > F8 26 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{232} normal block at 0x0000023E23BD26E0, 320 bytes long.
+ Data: <  p?            > D8 81 70 3F F6 7F 00 00 02 00 00 00 01 00 00 00 
+{220} normal block at 0x0000023E23BD1D60, 96 bytes long.
+ Data: <  p?            > 88 82 70 3F F6 7F 00 00 01 00 00 00 01 00 00 00 
+{215} normal block at 0x0000023E23BD2490, 1 bytes long.
+ Data: < > CD 
+{214} normal block at 0x0000023E23BCF780, 24 bytes long.
+ Data: < Fp?            > 10 46 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{213} normal block at 0x0000023E23BD2650, 72 bytes long.
+ Data: <   #>      #>   > 80 03 BD 23 3E 02 00 00 90 0B BD 23 3E 02 00 00 
+{212} normal block at 0x0000023E23BD0200, 24 bytes long.
+ Data: < }p?            > B8 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{211} normal block at 0x0000023E23BD1AC0, 16 bytes long.
+ Data: < % #>           > E8 25 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{210} normal block at 0x0000023E23BD25D0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{208} normal block at 0x0000023E23BCF840, 24 bytes long.
+ Data: <8}p?            > 38 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{206} normal block at 0x0000023E23BD0EE0, 16 bytes long.
+ Data: <h% #>           > 68 25 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{205} normal block at 0x0000023E23BD2550, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{203} normal block at 0x0000023E23BCF9C0, 24 bytes long.
+ Data: <x p?            > 78 80 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{201} normal block at 0x0000023E23BD13E0, 16 bytes long.
+ Data: <   #>           > A8 0B BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{200} normal block at 0x0000023E23BD0B90, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{198} normal block at 0x0000023E23BD0380, 24 bytes long.
+ Data: < Ep?            > F0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{193} normal block at 0x0000023E23BD0C60, 16 bytes long.
+ Data: <   #>           > A8 1C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{192} normal block at 0x0000023E23BD1250, 16 bytes long.
+ Data: <P  #>           > 50 1C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{190} normal block at 0x0000023E23BCFA20, 32 bytes long.
+ Data: <%^[%T] %n : %v%$> 25 5E 5B 25 54 5D 20 25 6E 20 3A 20 25 76 25 24 
+{189} normal block at 0x0000023E23BD12F0, 16 bytes long.
+ Data: <(  #>           > 28 1C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{183} normal block at 0x0000023E23BD1C20, 248 bytes long.
+ Data: < Ep?       #>   > 20 45 70 3F F6 7F 00 00 F0 12 BD 23 3E 02 00 00 
+{182} normal block at 0x0000023E23BD0AD0, 128 bytes long.
+ Data: <   #>      #>   > 20 06 BD 23 3E 02 00 00 20 06 BD 23 3E 02 00 00 
+{181} normal block at 0x0000023E23BD0DF0, 16 bytes long.
+ Data: <   #>           > E8 1C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{180} normal block at 0x0000023E23BD0620, 32 bytes long.
+ Data: <   #>      #>   > 20 06 BD 23 3E 02 00 00 20 06 BD 23 3E 02 00 00 
+{179} normal block at 0x0000023E23BD0E40, 16 bytes long.
+ Data: <   #>           > D0 1C BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{178} normal block at 0x0000023E23BD1700, 16 bytes long.
+ Data: < $ #>           > 10 24 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{177} normal block at 0x0000023E23BD2400, 72 bytes long.
+ Data: <`* #>   p  #>   > 60 2A BD 23 3E 02 00 00 70 F6 BC 23 3E 02 00 00 
+{175} normal block at 0x0000023E23BD1840, 16 bytes long.
+ Data: < # #>           > A0 23 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{174} normal block at 0x0000023E23BD17F0, 16 bytes long.
+ Data: <p  #>   `  #>   > 70 1E BD 23 3E 02 00 00 60 1E BD 23 3E 02 00 00 
+{173} normal block at 0x0000023E23BD0F80, 16 bytes long.
+ Data: < " #>           > C0 22 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{172} normal block at 0x0000023E23BD1390, 16 bytes long.
+ Data: < " #>           > 98 22 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{168} normal block at 0x0000023E23BD2280, 320 bytes long.
+ Data: <  p?            > D8 81 70 3F F6 7F 00 00 02 00 00 00 01 00 00 00 
+{156} normal block at 0x0000023E23BD1E60, 96 bytes long.
+ Data: <  p?            > 88 82 70 3F F6 7F 00 00 01 00 00 00 01 00 00 00 
+{144} normal block at 0x0000023E23BD0A10, 128 bytes long.
+ Data: <   #>      #>   > 90 09 BD 23 3E 02 00 00 90 09 BD 23 3E 02 00 00 
+{143} normal block at 0x0000023E23BCF3E0, 16 bytes long.
+ Data: <  z?            > 10 CF 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{142} normal block at 0x0000023E23BD0990, 64 bytes long.
+ Data: <   #>      #>   > 90 09 BD 23 3E 02 00 00 90 09 BD 23 3E 02 00 00 
+{141} normal block at 0x0000023E23BCF110, 16 bytes long.
+ Data: <  z?            > F8 CE 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{140} normal block at 0x0000023E23BD08D0, 128 bytes long.
+ Data: <`* #>   `* #>   > 60 2A BD 23 3E 02 00 00 60 2A BD 23 3E 02 00 00 
+{139} normal block at 0x0000023E23BCEDA0, 16 bytes long.
+ Data: <  z?            > C0 CE 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{138} normal block at 0x0000023E23BCF670, 72 bytes long.
+ Data: < $ #>    - #>   > 00 24 BD 23 3E 02 00 00 C0 2D BD 23 3E 02 00 00 
+{137} normal block at 0x0000023E23BCF390, 16 bytes long.
+ Data: <  z?            > A8 CE 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{136} normal block at 0x0000023E23BD02C0, 24 bytes long.
+ Data: < Fp?            > 10 46 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{135} normal block at 0x0000023E23BD0840, 72 bytes long.
+ Data: <   #>      #>   > A0 01 BD 23 3E 02 00 00 D0 B2 BC 23 3E 02 00 00 
+{134} normal block at 0x0000023E23BD0080, 24 bytes long.
+ Data: < }p?            > B8 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{133} normal block at 0x0000023E23BCEF30, 16 bytes long.
+ Data: <   #>           > D8 07 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{132} normal block at 0x0000023E23BD07C0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{130} normal block at 0x0000023E23BCFB40, 24 bytes long.
+ Data: <8}p?            > 38 7D 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{128} normal block at 0x0000023E23BCEEE0, 16 bytes long.
+ Data: <X  #>           > 58 07 BD 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{127} normal block at 0x0000023E23BD0740, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{125} normal block at 0x0000023E23BD0500, 24 bytes long.
+ Data: <x p?            > 78 80 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{123} normal block at 0x0000023E23BCEE40, 16 bytes long.
+ Data: <   #>           > E8 B2 BC 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{122} normal block at 0x0000023E23BCB2D0, 64 bytes long.
+ Data: < Ep?            > D0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{120} normal block at 0x0000023E23BD01A0, 24 bytes long.
+ Data: < Ep?            > F0 45 70 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{115} normal block at 0x0000023E23BCF340, 16 bytes long.
+ Data: <   #>           > F8 F4 BC 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{114} normal block at 0x0000023E23BCEDF0, 16 bytes long.
+ Data: <   #>           > A0 F4 BC 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{110} normal block at 0x0000023E23BCF5B0, 128 bytes long.
+ Data: <   #>      #>   > 00 88 BC 23 3E 02 00 00 00 88 BC 23 3E 02 00 00 
+{109} normal block at 0x0000023E23BCED00, 16 bytes long.
+ Data: <8  #>           > 38 F5 BC 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{108} normal block at 0x0000023E23BC8800, 32 bytes long.
+ Data: <   #>      #>   > 00 88 BC 23 3E 02 00 00 00 88 BC 23 3E 02 00 00 
+{107} normal block at 0x0000023E23BCECB0, 16 bytes long.
+ Data: <   #>           > 20 F5 BC 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{106} normal block at 0x0000023E23BCF470, 248 bytes long.
+ Data: < Ep?       #>   > 20 45 70 3F F6 7F 00 00 F0 F2 BC 23 3E 02 00 00 
+{105} normal block at 0x0000023E23BC8740, 32 bytes long.
+ Data: <%^[%T] %n : %v%$> 25 5E 5B 25 54 5D 20 25 6E 20 3A 20 25 76 25 24 
+{104} normal block at 0x0000023E23BCF2F0, 16 bytes long.
+ Data: <x  #>           > 78 F4 BC 23 3E 02 00 00 00 00 00 00 00 00 00 00 
+{93} normal block at 0x0000023E23BCB210, 128 bytes long.
+ Data: < 9 #>    9 #>   > 90 39 BD 23 3E 02 00 00 90 39 BD 23 3E 02 00 00 
+{92} normal block at 0x0000023E23BCEF80, 16 bytes long.
+ Data: <  z?            > A0 CB 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{91} normal block at 0x0000023E23BCB180, 72 bytes long.
+ Data: < 9 #>    9 #>   > 90 39 BD 23 3E 02 00 00 90 39 BD 23 3E 02 00 00 
+{90} normal block at 0x0000023E23BCED50, 16 bytes long.
+ Data: <  z?            > 88 CB 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{89} normal block at 0x0000023E23BCB0C0, 128 bytes long.
+ Data: < 4 #>    4 #>   > 80 34 BD 23 3E 02 00 00 80 34 BD 23 3E 02 00 00 
+{88} normal block at 0x0000023E23BCF200, 16 bytes long.
+ Data: <P z?            > 50 CB 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+{87} normal block at 0x0000023E23BCB030, 72 bytes long.
+ Data: < 4 #>    4 #>   > 80 34 BD 23 3E 02 00 00 80 34 BD 23 3E 02 00 00 
+{86} normal block at 0x0000023E23BCAFE0, 16 bytes long.
+ Data: <8 z?            > 38 CB 7A 3F F6 7F 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
