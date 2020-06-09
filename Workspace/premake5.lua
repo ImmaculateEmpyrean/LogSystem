@@ -29,13 +29,15 @@ project "Sandbox"
 
 	files
 	{
-		"%{prj.name}/src/**.h",
-		"%{prj.name}/src/**.cpp"
+		"Sandbox/src/**.h",
+		"Sandbox/src/**.cpp"
 	}
 
 	includedirs
 	{
-        "%{prj.name}/src"
+		"Sandbox/src",
+		"LogSystem/src",
+		"LogSystem/SpdLog/include"
 	}
 	
 	links
