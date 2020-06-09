@@ -249,8 +249,9 @@
     <ClInclude Include="SpdLog\include\spdlog\spdlog.h" />
     <ClInclude Include="SpdLog\include\spdlog\tweakme.h" />
     <ClInclude Include="SpdLog\include\spdlog\version.h" />
+    <ClInclude Include="src\Log.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Dummy.cpp" />
+    <ClCompile Include="src\Log.cpp" />
   </ItemGroup>
 </Project>
