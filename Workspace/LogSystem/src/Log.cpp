@@ -146,7 +146,21 @@ Log::Log(std::vector<std::pair<std::string, CreateLogFile>> Configuration)
 
 Log::~Log()
 {
-	delete PointerToSingletonLogClass;
+	//StdOut_LoggingObjectsContainer.clear();
+	//File_LoggingObjectsContainer.clear();
+	for (auto i : StdOut_LoggingObjectsContainer)
+		i.second.reset();
+	for (auto i : File_LoggingObjectsContainer)
+		i.second.reset();
+
+	StdOut_LoggingObjectsContainer.clear();
+	File_LoggingObjectsContainer.clear();
+
+
+	DefaultFileLogger.reset();
+	DefaultSTDOUTLogger.reset();
+
+	spdlog::shutdown();
 }
 
 void Log::InitHelper(std::vector<std::pair<std::string, CreateLogFile>> Configuration)
@@ -223,6 +237,12 @@ void Log::InitFromManifestFile(std::filesystem::path ManifestFilePath)
 
 	//InitHelper(Configuration); //This Function Does The Actual Initialization Stuff
 	InitHelper(Configuration);
+}
+
+void Log::DeInitializeLogSystem()
+{
+	if(PointerToSingletonLogClass != nullptr)
+		delete PointerToSingletonLogClass;
 }
 
 std::shared_ptr<spdlog::logger>& Log::GetDefaultSTDOUTLogger()

@@ -18,4 +18,6 @@ void Example1Main()
 	Log::Init(Configuration); //Init The Log Module..
 
 	STDOUTDefaultLog_Trace("I Am A Log Message");
+
+	Log::DeInitializeLogSystem();
 }

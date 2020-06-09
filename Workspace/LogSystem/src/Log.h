@@ -31,26 +31,25 @@ public:
 	static void Init(std::vector<std::pair<std::string, CreateLogFile>> Configuration); //Initialize The Log Library
 	static void InitFromManifestFile(std::filesystem::path ManifestFilePath = "LogManifest.txt");
 
+	static void DeInitializeLogSystem();
+
 private:
 	static void InitHelper(std::vector<std::pair<std::string, CreateLogFile>> Configuration);
 
 private:
 	static bool InitializationState;
 	static std::once_flag InitializationFlag;
-	static Log* PointerToSingletonLogClass;
+	static Log* PointerToSingletonLogClass; //Checked Out Memory
 
-	static std::shared_ptr<spdlog::logger> DefaultSTDOUTLogger;
-	static std::shared_ptr<spdlog::logger> DefaultFileLogger;
+	static std::shared_ptr<spdlog::logger> DefaultSTDOUTLogger; //Checked Out Memory
+	static std::shared_ptr<spdlog::logger> DefaultFileLogger; //Checked Out Memory
 
-	//static std::vector<std::shared_ptr<spdlog::logger>> LoggerContainer;
-	//static std::vector<std::string> LoggerNameContainer;
-
-	static std::unordered_map<std::string, std::shared_ptr<spdlog::logger>> StdOut_LoggingObjectsContainer;
-	static std::unordered_map<std::string, std::shared_ptr<spdlog::logger>> File_LoggingObjectsContainer;
+	static std::unordered_map<std::string, std::shared_ptr<spdlog::logger>> StdOut_LoggingObjectsContainer; //checked out memory
+	static std::unordered_map<std::string, std::shared_ptr<spdlog::logger>> File_LoggingObjectsContainer;   //checked out memory
 
 public:
 	static std::shared_ptr<spdlog::logger>& GetDefaultSTDOUTLogger();
-	static std::shared_ptr<spdlog::logger>& GetDefaultFileLogger();
+	static std::shared_ptr<spdlog::logger>& GetDefaultFileLogger(); 
 	
 	static std::optional<std::shared_ptr<spdlog::logger>> GetSTDOUTLoggerOfTheName(std::string Name);
 	static std::optional<std::shared_ptr<spdlog::logger>> GetFileLoggerOfTheName(std::string Name);
