@@ -160,6 +160,7 @@ Log::~Log()
 	DefaultFileLogger.reset();
 	DefaultSTDOUTLogger.reset();
 
+	spdlog::drop_all();
 	spdlog::shutdown();
 }
 
@@ -182,7 +183,7 @@ void Log::InitHelper(std::vector<std::pair<std::string, CreateLogFile>> Configur
 
 void Log::Init(std::vector<std::pair<std::string, CreateLogFile>> Configuration)
 {
-	InitHelper(Configuration);
+	InitHelper(std::move(Configuration));
 }
 
 void Log::InitFromManifestFile(std::filesystem::path ManifestFilePath)
@@ -241,7 +242,7 @@ void Log::InitFromManifestFile(std::filesystem::path ManifestFilePath)
 
 void Log::DeInitializeLogSystem()
 {
-	if(PointerToSingletonLogClass != nullptr)
+	if (PointerToSingletonLogClass != nullptr);
 		delete PointerToSingletonLogClass;
 }
 
