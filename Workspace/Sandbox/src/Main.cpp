@@ -35,7 +35,7 @@ int main()
 	}
 	_CrtMemCheckpoint(&s2);
 	//Ended Call Which Example You Want Here//
-	int* ptr = new int[100];
+
 	//Start Print Detected Memory Leaks To File..
 	FILE* pFile;
 	freopen_s(&pFile, "MemoryLeakLog.txt", "w", stdout);
